@@ -1,0 +1,136 @@
+/************* common css start *************/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul, ol{
+    list-style: none;
+}
+h1, h2, h3, h4, h4, h5, h6, ul, ol, p{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+:root{
+    --interFont:"Inter", sans-serif;
+    --praymaryColor:#FFFFFF;
+}
+body{
+    background: #000;
+}
+
+/************* common css end *************/
+/*************** navbar css start ************/
+.main-menu{
+    padding: 40px 0;
+
+}
+.mine-ul{
+    gap: 80px;
+}
+.mine-ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--interFont);
+    color: var(--praymaryColor) !important;
+    padding: 0 !important;
+}
+.mine-ul li a:hover{
+    width: 116px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--interFont);
+    background: #3099aa;
+    color: #000 !important;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+}
+
+/*************** navbar css end ************/
+/********** common css start **********/
+.banner{
+    padding-top: 40px;
+}
+.banner-div{
+    position: relative;
+}
+.banner-image{
+    margin-top:59px;
+    width: 827px;
+}
+.banner-head{
+    width: 500px;
+    height: 533px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    top: 170px;
+}
+.banner-head h2{
+    color: #3099aa;
+    font-size: 43px;
+    font-weight: 600;
+    font-family: var(--interFont);
+
+}
+.banner-head h1{
+    font-size: 150px;
+    font-weight: 600;
+    font-family: var(--interFont);
+    color: #FFFFFF;
+}
+.banner-head p{
+    width: 487px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--interFont);
+    color: #fff;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+.banner-head a{
+    padding: 20px 150px;
+    font-size: 24px;
+    margin: 0 auto;
+    font-weight: 600;
+    font-family: var(--interFont);
+    color: #FFFFFF;
+    background: #3099aa;
+    border-radius: 30px;
+    left: 0;
+}
+.icon{
+    display: flex;
+    gap: 98px;
+    right: 0;
+    position: absolute;
+    margin-top: 40px;
+}
+.icon img{
+    width: 40px;
+  
+}
+
+
+/********** common css end **********/
+/******************* common css start *******************/
+
+/******************* common css end *******************/
+/******************* common css start *******************/
+
+/******************* common css end *******************/
